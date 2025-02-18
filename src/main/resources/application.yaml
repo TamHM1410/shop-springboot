@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: springboot-shop
+  my:
+    name: HuynhMinh Tam
+    phone:  0823532831
+  datasource:
+    url:  jdbc:mysql://localhost:3306/shopdev
+    username: root
+    password: root
+    driver-class-name:  com.mysql.jdbc.Driver
+  jpa:
+    database: mysql
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:  
+        format_sql: true
+        use_sql_comments: true
+    
+
+

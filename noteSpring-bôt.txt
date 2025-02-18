@@ -1,0 +1,7 @@
+hibernate (orm)
+    none: Không cấu hình ,không muốn hibernate can thiệp vào cơ sở dữ liệu
+    validate:kiểm tra lược đồ trong csdl có khớp với entity hay ko ,nếu không khớp trả về lỗi 
+    create: xóa và tạo lại csdl từ đầu khi ứng dụng được tạo lại (nguy hiểm)
+    create-drop : tương tự như create nhưng khi ứng dụng dừng lại sẽ xóa ( thử nghiệm trong môi trường test)
+    update:tự động cập nhật lược đồ csdl khớp với entity
+    
